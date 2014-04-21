@@ -265,7 +265,7 @@ Full-Width Styles
 
 .outer2 {
   width: 100%;
-  min-height: 800px;
+  min-height: 1000px;
 }
 
 .inner {
@@ -364,6 +364,7 @@ Full-Width Styles
 
 #main_content_wrap {
   background: url(../images/nlsd_tr.png) #f2f2f2 no-repeat 50% 50%;
+  background-attachment:fixed;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
