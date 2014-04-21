@@ -260,6 +260,12 @@ Full-Width Styles
 
 .outer {
   width: 100%;
+  min-height: 43px;
+}
+
+.outer2 {
+  width: 100%;
+  min-height: 800px;
 }
 
 .inner {
@@ -270,18 +276,17 @@ Full-Width Styles
 }
 
 #forkme_banner {
+  float: right;
   display: block;
-  position: absolute;
+  position: fixed;
   top:0;
-  right: 10px;
+  right: 0px;
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
   background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
 }
 
 #header_wrap {
@@ -294,13 +299,15 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 0px 10px 30px 10px;
 }
 
 #project_title {
+  float: left;
+  top: 10px;
   margin: 0;
   color: #fff;
-  font-size: 42px;
+  font-size: 38px;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
 }
@@ -353,7 +360,7 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  background: #f2f2f2;
+  background: url(../images/nlsd_tr.png) #f2f2f2 no-repeat 50% 50%;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
