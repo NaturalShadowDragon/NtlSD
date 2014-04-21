@@ -289,7 +289,22 @@ Full-Width Styles
   box-shadow: 0 0 10px rgba(0,0,0,.5);
 }
 
+#banner {
+  float: right;
+  display: block;
+  position: fixed;
+  top:0;
+  right: 0px;
+  z-index: 10;
+  padding: 10px 50px 10px 10px;
+  color: #fff;
+  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+
 #header_wrap {
+  position: fixed;
   background: #212121;
   background: -moz-linear-gradient(top, #373737, #212121);
   background: -webkit-linear-gradient(top, #373737, #212121);
