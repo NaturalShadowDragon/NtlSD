@@ -265,7 +265,7 @@ Full-Width Styles
 
 .outer2 {
   width: 100%;
-  min-height: 800px;
+  min-height: 1000px;
 }
 
 .inner {
@@ -287,9 +287,12 @@ Full-Width Styles
   background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
+    line-height: 1.6;
 }
 
 #header_wrap {
+  line-height: 1.2;
+  position: fixed;
   background: #212121;
   background: -moz-linear-gradient(top, #373737, #212121);
   background: -webkit-linear-gradient(top, #373737, #212121);
@@ -299,7 +302,7 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 0px 10px 30px 10px;
+  padding: 0px 10px 0px 10px;
 }
 
 #project_title {
@@ -360,7 +363,8 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  background: url(../images/nlsd_tr.png) #f2f2f2 no-repeat 50% 50%;
+  background: url(../images/nlsd_tr.svg) #f2f2f2 no-repeat 50% 50%;
+  background-attachment:fixed;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
